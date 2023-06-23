@@ -17,9 +17,9 @@ public class ProductController {
 
     @PostConstruct
     private void loadData() {
-        Product pro1 = new Product(1, "Banh trung thu", "Hai", 20.59, 5);
-        Product pro2 = new Product(2, "Banh deo", "Nam", 25.60, 7);
-        Product pro3 = new Product(3, "Long den trung thu", "Bay", 13.40, 9);
+        Product pro1 = new Product(1, "Banh trung thu", "Hai", 20.59, "5");
+        Product pro2 = new Product(2, "Banh deo", "Nam", 25.60, "7");
+        Product pro3 = new Product(3, "Long den trung thu", "Bay", 13.40, "9");
 
         theProducts = new ArrayList<>();
 

@@ -5,11 +5,11 @@ public class Product {
     private String name;
     private String description;
     private double price;
-    private double qty;
+    private String qty;
     public Product(){
 
     }
-    public Product(int id, String name, String description, double price, double qty) {
+    public Product(int id, String name, String description, double price, String qty) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -49,11 +49,11 @@ public class Product {
         this.price = price;
     }
 
-    public double getQty() {
+    public String getQty() {
         return qty;
     }
 
-    public void setQty(double qty) {
+    public void setQty(String qty) {
         this.qty = qty;
     }
 
